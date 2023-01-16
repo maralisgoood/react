@@ -1,0 +1,65 @@
+.container, #content, .top, .bottom  {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top, .bottom {
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    max-width: 1265px;
+    width: 100%;
+}
+
+.smallText {
+    font-size: 13px;
+}
+
+#content {
+    max-width: 1100px;
+    width: 100%;
+}
+
+#menu {
+    padding-top: 24px;
+    max-width: 165px;
+    width: 100%;
+    height: 100vh;
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+}
+
+#headline {
+    padding: 20px;
+}
+
+#headline button.blueBtn {
+    width: 100px;
+    height: 38px;
+}
+#headline button.lightBtn {
+    width: 70px;
+    height: 35px;
+}
+
+#headline h1 {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+#mainbar {
+    max-width: 750px;
+    width: 100%;
+}
+
+#sidebar {
+    padding: 24px;
+    max-width: 300px;
+    width: 100%;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}

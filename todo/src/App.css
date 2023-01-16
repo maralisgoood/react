@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 500px;
+  position: absolute;
+  padding: 30px;
+}
+
+#newTask,
+#tasks {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+#newTask input {
+  width: 70%;
+  height: 45px;
+  font-size: 15px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+button {
+  position: relative;
+  float: right;
+  width: 25%;
+  border: none;
+  cursor: pointer;
+}
+
+#newTask button {
+  height: 45px;
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+li button {
+  height: 25px;
+  border-radius: 3px;
+}
+
+#tasks {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+
+ul li {
+  margin-top: 10px;
+  padding: 5px;
+  border: .5px solid lightgrey;
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+footer {
+    padding: 75px;
+    background-color: #24afff;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ftrTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+}
+
+.ftrBottom a {
+    color: #fff;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}

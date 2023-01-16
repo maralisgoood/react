@@ -1,0 +1,75 @@
+/* NAVBAR */
+.navbar {
+    padding: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    width: 750px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    width: 100px;
+    height: 35px;
+    border: .5px solid grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border: 1px solid #24afff;
+}
+
+nav ul a {
+    color: #24afff;
+    text-decoration: none;
+}
+
+/* ADS */
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.adsImg {
+    position: relative;
+}
+
+.adsText {
+    margin-left: 500px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    line-height: 60px;
+}
+
+.adsText h2 {
+    font-size: 40px;
+    color: #24afff;
+}
+
+button.orangeBtn {
+    width: 135px;
+    height: 45px;
+    color: #fff;
+    background-color: #FF8957;
+    border: none;
+    border-radius: 20px;
+}
+
+/* BRANDS */
+.brands {
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-between;
+}

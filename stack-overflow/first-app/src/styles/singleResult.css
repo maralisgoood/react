@@ -1,0 +1,55 @@
+#singleCard {
+    border-top: 1px solid lightgrey;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 100px;
+  }
+
+  #cardInfo {  
+    font-size: 13px;  
+    margin: 0;
+    width: 125px;
+    text-align: end;
+  }
+
+  #cardInfo p {
+    margin: 0;
+  }
+  
+  #cardText {
+    max-width: 550px;
+    text-align: left;
+  }
+  
+  #cardText h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #0074cc;
+  }
+  
+  #cardText p {
+    font-size: 13px;
+    margin: 5px 0;
+    color: #3c4044;
+  }
+
+  #cardInfo a {
+    text-decoration: none;
+  }
+  
+  .greenBtn {
+    display: block;
+    margin: 5px 0;
+    color: #fff;
+    border: 0px;
+    background-color: #2e6f44;
+    width: 100px;
+    height: 25px;
+  }
+  
+  .view {
+    color: #95252a;
+  }
