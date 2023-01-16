@@ -1,0 +1,64 @@
+#blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    height: 500px;
+}
+
+.blogText {
+    text-align: left;
+    max-width: 630px;
+    width: 100%;
+}
+
+h1 {
+    color: #D05270;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.blogText h2 {
+    color: #424242;
+    margin: 10px 0;
+    font-size: 52px;
+    font-weight: 500;
+}
+
+.blogText p {
+    color: #424242;
+    margin: 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.linkBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.linkBtns button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    font-size: 12px;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+}
+
+.twitterBtn {
+    background-color: #47ACDF;
+}
+
+.linkedinBtn {
+    background-color: #1275B1;
+}
+
+.mediumBtn {
+    background-color: #000;
+}

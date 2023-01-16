@@ -1,0 +1,43 @@
+header, #logo, nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    padding: 23px 0;
+}
+
+nav {
+    max-width: 600px;
+    width: 100%;
+}
+
+nav ul {  
+    width: 100%;
+    color: #424242;
+    font-size: 14px;  
+    font-weight: 500;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul .active {
+    color: #5A47AB;
+    font-weight: 600;
+}
+
+button.arrowBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #5A47AB;
+    border: 0;
+    width: 90px;
+    height: 24px;
+}
